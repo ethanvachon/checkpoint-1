@@ -15,14 +15,9 @@
   background-color: #0CF7AD;
 }
 
-.cbg-4 {
-  background-color: rgb(17, 17, 17)
-}
 
 .cbg-5 {
   background-color: whitesmoke;
-  width: 70%;
-  border-radius: 5%;
 }
 
 .cc-2 {
@@ -102,6 +97,11 @@
 
 .mt-6 {
   padding-top: 10em;
+}
+
+.foottxt:hover {
+  color: #0CED66;
+  cursor: pointer
 }
 
 @media only screen and (max-width: 576px) {
