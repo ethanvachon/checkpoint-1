@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .custom-font {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -56,6 +60,11 @@
   width: 25em;
   height: auto;
   border-radius: 2%;
+  transition: transform .2s;
+}
+
+.img-2:hover {
+  transform: scale(1.1);
 }
 
 .bars {
@@ -135,6 +144,9 @@
   .bars {
     display: flex;
     align-items: center;
+  }
+  .headlinks {
+    display: none;
   }
 }
 
